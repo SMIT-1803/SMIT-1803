@@ -1,28 +1,64 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", serif;
 }
 
-nav ul{
+body {
+    background-color: rgb(17, 24, 39);
+}
+
+.navbar {
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding: 15px;
-    background: #1E1E1E;
+    align-items: center;
+    justify-content: center; /* Centers the navigation links */
+    background-color: rgb(31, 41, 55);
+    padding: 15px 40px;
+    position: relative; /* Allows absolute positioning for the logo */
+}
+
+/* Navigation Styling */
+.navigators ul {
+    display: flex;
+    gap: 25px;
     list-style: none;
-    font-size: 18px;
+    font-size: 15px;
+    font-weight: bold;
+    
+    padding: 15px;
 }
 
-nav li:hover{
-    transform: scale(1.3);
-    transition: 0.2s;
-}
-
-nav a{
+.navigators a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: white;
 }
 
-nav a:hover{
-    color: #F4A261;
+/* Logo Styling (Right Side) */
+.instaLogo {
+    position: absolute;
+    right: 20px; /* Adjust spacing from the right */
+}
+.linkedinLogo {
+    position: absolute;
+    right: 76px; /* Adjust spacing from the right */
+}
+
+.name{
+    position: absolute;
+    left: 20px;
+}
+
+.name p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.instaLogo img {
+    height: 60px;
+}
+
+.linkedinLogo img {
+    height: 40px;
 }
