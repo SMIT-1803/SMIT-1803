@@ -50,13 +50,16 @@ span{
     font-weight: bold;
 }
 
-.myPhoto2 img{
+.myPhoto2 img {
     height: 520px;
     position: relative;
-    top:-445px;
+    top: -445px;
     left: -460px;
     z-index: -1;
-    transition: 0.3s;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0px 10px 30px rgba(255, 100, 0,0.7),
+                0px 5px 15px rgba(0, 0, 0, 0.4);  
+    border-radius: 30px; 
 }
 
 .contactInfo{
