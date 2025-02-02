@@ -64,4 +64,29 @@ span{
     padding-bottom: 12px;
     font-size: 17px;
 }
+.resumeBtn{
+    display: inline;
+    color: whitesmoke;
+    background: linear-gradient(90deg, #ff0000, #ff7300);
+    position: relative;
+    top: 578px;
+    left: 560px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 23px;
+    transition:0.3s;
+}
 
+.resumeBtn:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.resumeBtn a{
+    text-decoration: none;
+    color:whitesmoke;
+}
