@@ -80,6 +80,7 @@ span{
     padding-right: 15px;
     border-radius: 23px;
     transition:0.3s;
+    z-index: -1;
 }
 
 .resumeBtn:hover{
@@ -92,4 +93,53 @@ span{
 .resumeBtn a{
     text-decoration: none;
     color:whitesmoke;
+}
+
+.toolboxHeading{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 770px;
+}
+
+.toolboxHeading p{
+    background: linear-gradient(90deg, #ff0000, #ff7300);
+    color: transparent;
+    background-clip: text;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+.toolbox{
+    position:absolute;
+    top: 850px;
+    left: 160px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px;
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+table td {
+    padding: 17px 115px;
+    border-radius: 10px;
+    background-color: rgb(31, 41, 55);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.2s ease-in-out;
+    font-weight: bold;
+}
+
+td img{
+    width: 48px;
+}
+
+td:hover{
+    background: linear-gradient(90deg, #ff0000, #ff7300);
+    cursor: pointer;
 }
