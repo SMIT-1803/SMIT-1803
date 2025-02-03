@@ -12,6 +12,7 @@
     padding: 15px 40px;
     position: fixed; /* Allows absolute positioning for the logo */
     width: 100%;
+    z-index: 1;
 }
 
 /* Navigation Styling */
