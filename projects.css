@@ -20,7 +20,7 @@ html {
     color: whitesmoke;
 }
 
-.heading p{
+.mainHeading{
     font-size: 65px;
     font-weight: bolder;
     background: linear-gradient(56deg,#ff0000, #ff7300);
@@ -28,6 +28,11 @@ html {
     background-clip: text;
     position: relative;
     top: -11px;
+}
+
+.description{
+    font-weight: bold;
+    color: whitesmoke;
 }
 
 table{
