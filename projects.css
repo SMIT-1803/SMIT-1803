@@ -4,6 +4,13 @@ body {
 html {
     scroll-behavior:smooth;
 }
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
 
 
 .heading{
@@ -35,18 +42,40 @@ table{
 
 }
 
+td a{
+    text-decoration: none;
+}
+
 
 .projectBox {
-    height: 542px;
+    position: relative;
+    height: 565px;
     width: 500px;
     background-color: whitesmoke;
-    padding: 20px;  /* Ensures elements inside are spaced from the border */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     text-align: center;
-    box-sizing: border-box; /* Ensures padding doesn't add extra width/height */
+    box-sizing: border-box; 
     border: solid 4px;
     border-image: linear-gradient(56deg,#ff0000, #ff7300)1;
     transition: 0.3s ease-in-out;
     box-shadow: 2px 3px 11px 0px #ff7300;
+}
+
+.github{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.github img{
+    height: 30px;
+}
+
+.github img:hover{
+    animation: shake 0.5s ease-in-out;
 }
 
 .main{
@@ -74,16 +103,16 @@ table{
 
 .projectBox:hover{
     transform: scale(1.05);
-    cursor: pointer;
 }
 
 .skillsDisplay{
     padding-top: 10px;
     text-align: left;
+    display: flex;
 }
 
 .skillsDisplay img{
-    height: 35px;
+    height: 30px;
     padding-right: 15px;
 }
 
