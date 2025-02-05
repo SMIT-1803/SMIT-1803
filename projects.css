@@ -87,3 +87,7 @@ table{
     padding-right: 15px;
 }
 
+footer{
+    position: relative;
+    top: 225px;
+}
