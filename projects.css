@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(17, 24, 39);
+}
+html {
+    scroll-behavior:smooth;
+}
+
+
+.heading{
+    text-align: center;
+    position: relative;
+    top: 145px;
+    color: whitesmoke;
+}
+
+.heading p{
+    font-size: 65px;
+    font-weight: bolder;
+    background: linear-gradient(56deg,#ff0000, #ff7300);
+    color: transparent;
+    background-clip: text;
+    position: relative;
+    top: -11px;
+}
+
+table{
+    position: relative;
+    top: 140px;
+    left: 160px;
+    border-collapse: separate;
+    width: 78%;
+    display: flex;
+    justify-content: center;
+    border-spacing: 40px;
+
+}
+
+
+.projectBox {
+    height: 542px;
+    width: 500px;
+    background-color: whitesmoke;
+    padding: 20px;  /* Ensures elements inside are spaced from the border */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding doesn't add extra width/height */
+    border: solid 4px;
+    border-image: linear-gradient(56deg,#ff0000, #ff7300)1;
+    transition: 0.3s ease-in-out;
+    box-shadow: 2px 3px 11px 0px #ff7300;
+}
+
+.main{
+    width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+.projectBox h2{
+    color: black;
+    text-align: left;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.projectBox p{
+    color: black;
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+
+.projectBox:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.skillsDisplay{
+    padding-top: 10px;
+    text-align: left;
+}
+
+.skillsDisplay img{
+    height: 35px;
+    padding-right: 15px;
+}
+
+footer{
+    position: relative;
+    top: 225px;
+}
