@@ -4,6 +4,24 @@
     box-sizing: border-box;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, serif;
 }
+@keyframes hand-wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(10deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 
 body {
     background-color: rgb(17, 24, 39);
@@ -18,10 +36,17 @@ body {
     z-index: -1;
 }
 
-span{
+.nameSpan{
     background: linear-gradient(90deg, #ff0000, #ff7300);
     color: transparent;
     background-clip: text;
+}
+
+
+.hand{
+    cursor: pointer;
+    display: inline-block;
+    animation: hand-wave 0.5s 3;
 }
 
 .mainIntro h2{
@@ -52,6 +77,7 @@ span{
     color: whitesmoke;
     padding-top: 16px;
     line-height: 1.3;
+    text-align: justify;
 }
 
 .myPhoto img{
@@ -59,7 +85,7 @@ span{
     display: inline;
     position: relative;
     top: -143px;
-    left: 830px;
+    left: 865px;
     z-index: -1;
     transition: all 0.4s ease-in-out;
     box-shadow: 0px 10px 30px rgba(255,100, 0,0.7),
