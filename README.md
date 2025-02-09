@@ -1,16 +1,20 @@
-## Hi there 👋
+I'm Smit Sanghvi, a Computer Science student at Simon Fraser University with a passion for software development. I enjoy solving complex problems and building applications using modern technologies. This website is my digital space to share my projects, experiences, and how you can get in touch with me.
 
-<!--
-**SMIT-1803/SMIT-1803** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Portfolio Overview
 
-Here are some ideas to get you started:
+This repository contains the code for my personal website, featuring several key sections:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Home:** A brief welcome message and introduction.
+- **About:** Detailed background information about my journey in software development.
+- **Experience:** A summary of my academic and professional experiences.
+- **Projects:** A showcase of my work and side projects.
+- **Contact:** Information on how to connect with me via social media and email.
+
+The site is designed with a clean layout to ensure a smooth browsing experience.
+
+## Technologies Used
+
+The portfolio is built with modern web development practices, including:
+
+- **HTML5**
+- **CSS3**
